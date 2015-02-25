@@ -5,6 +5,7 @@
         <classes>
             <class name="org.seleniumqa.lesson_1.SimpleNumber"/>
             <class name="org.seleniumqa.lesson_3.TextSearch"/>
+            <class name="org.seleniumqa.lesson_4.Hello"/>
         </classes>
     </test>
 </suite>
