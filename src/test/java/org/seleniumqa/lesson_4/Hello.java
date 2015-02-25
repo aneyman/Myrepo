@@ -11,7 +11,7 @@ import static org.testng.Assert.assertTrue;
 /**
  * Created by admin on 11.02.2015.
  */
- dfgdfgdfg
+
 public class Hello {
 
     private String S;
@@ -22,7 +22,7 @@ public class Hello {
     }
 
     @Test
-    public void isPrimeTest(){
+    public void isPrimeTest(){ //надо всегда public void - тестовій метод
         assertTrue(FindSymbol(S));
     }
 
