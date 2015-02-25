@@ -21,7 +21,7 @@ public class Hello {
     public void setUp(){
         S = "Мама мыла раму";
     }
-error
+
     @Test
     public void isPrimeTest(){
         assertTrue(FindSymbol(S));
