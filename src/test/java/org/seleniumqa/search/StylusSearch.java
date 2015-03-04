@@ -14,7 +14,8 @@ import java.util.concurrent.TimeUnit;
 
 public class StylusSearch {
 
-    WebDriver driver = new FirefoxDriver();
+   WebDriver driver = new FirefoxDriver();
+   // WebDriver driver = new ChromeDriver();
 
     //Preconditions
     @BeforeClass
@@ -39,7 +40,8 @@ public class StylusSearch {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement seleniumLink = driver.findElement(By.xpath(".//*[@id='col1_content']/table[2]/tbody/tr[1]/td[1]/table/tbody/tr/td[2]/h4/a"));
 
-        Assert.assertEquals(seleniumLink.getText().toString().contains("Sony"),true);
+       // Assert.assertEquals(seleniumLink.getText().toString().contains("Sony"),true);
+        Assert.assertEquals(seleniumLink.getText().contains("Sony"),true);
     }
 
     @AfterClass
